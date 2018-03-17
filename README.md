@@ -1,5 +1,5 @@
 # ListFiles application
-Application written in Java for listing files in gives directory
+Application written in Java for listing files in given directory
 ## Usage
 ```
 listFiles [path] [sortFlags]
