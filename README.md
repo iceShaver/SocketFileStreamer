@@ -1,6 +1,6 @@
-#ListFiles application
+# ListFiles application
 Application written in Java for listing files in gives directory
-##Usage
+## Usage
 ```
 listFiles [path] [sortFlags]
 ```
