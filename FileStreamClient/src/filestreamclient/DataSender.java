@@ -36,6 +36,7 @@ public class DataSender extends Task<Void> {
                 DataOutputStream out = new DataOutputStream(outputStream)) {
             out.writeUTF(fileToSend.getName());
             out.writeLong(fileToSend.length());
+            updateMessage("Sending");
             while ((readSize = file.read(buffer)) != -1) {
                 dataSent += readSize;
                 out.write(buffer, 0, readSize);
